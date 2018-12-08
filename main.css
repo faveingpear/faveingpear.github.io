@@ -1,0 +1,202 @@
+:root {
+    /*Midnight blue*/
+    --color-one: #061C22;
+    /*Midnight blue (lighter)*/
+    --color-two: #123747;
+    /*Light steel blue*/
+    --color-three: #ADBDD1;
+    /*Sea green*/
+    --color-four: #2F6F7D;
+    /*Steel blue*/
+    --color-five: #68A6BC;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+    background-color: white;
+    color: var(--color-one);
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1516865622081-e98d705bb920?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8e453c06501d9fb07a1d9e4d598410be&auto=format&fit=crop&w=2100&q=80");
+
+    /* Full height and width*/
+    height: 70%; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: var(--color-two);
+    background-color: white;
+    text-align: center;
+}
+
+#mylogo {
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#mylinks a {
+    /* Style links */
+    float: none;
+    color: var(--color-four);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 17 px;
+}
+
+#mylinks a:hover {
+    text-decoration: underline;
+    color: var(--color-five);
+}
+
+#mylinks a:active {
+    color: var(--color-one);
+    text-decoration: bold;
+}
+
+h1 {
+    color: var(--color-five);
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#mycontent {
+    
+}
+
+.heading {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 38%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px 10px #000;
+}
+
+#robonox {
+    font-size: 1000%;
+}
+
+#pictures {
+    text-align: center;
+    background-color: var(--color-one);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#mypics ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex
+}
+
+/* ADD PICTURES HERE */
+#picture1 {
+    height: 400px;
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1534066825976-8f902040f339?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2295d068c833d27dbf1a2e9a1a5a9142&auto=format&fit=crop&w=934&q=80);
+    background-position: center;
+    background-size: contain;
+}
+
+#picture2 {
+    height: 400px;
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1534081333815-ae5019106622?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d6215c7bc358a96600c7d4eb616d7fc7&auto=format&fit=crop&w=1934&q=80);
+    background-position: center;
+    background-size: contain;
+}
+
+#picture3 {
+    height: 400px;
+    width: 400px;
+    background-image: url(https://images.unsplash.com/photo-1534003888922-a3504fa8914e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2854bccc789c9b458b9e89ef9d85428a&auto=format&fit=crop&w=934&q=80);
+    background-position: center;
+    background-size: contain;
+}
+
+#picturesbutton {
+    background-color: var(--color-one);
+    border-radius: 40px;
+    border: 3px solid white;
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+#picturesbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+#picturesbutton a:hover {
+    text-decoration: none;
+    color: var(--color-five);
+}
+
+#sponsor {
+    text-align: center;
+    background-color: var(--color-four);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#sponsorbutton {
+    background-color: var(--color-four);
+    border-radius: 40px;
+    border: 3px solid white;
+    height: 40px;
+    width: 330px;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+#sponsorbutton a {
+    text-decoration: none;
+    color: white;
+}
+
+#sponsorbutton a:hover {
+    text-decoration: none;
+    color: var(--color-five);
+}
+
+#bottominfo {
+    text-align: center;
+    background-color: var(--color-two);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

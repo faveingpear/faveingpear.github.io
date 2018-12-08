@@ -1,0 +1,186 @@
+:root {
+    /*Midnight blue*/
+    --color-one: #061C22;
+    /*Midnight blue (lighter)*/
+    --color-two: #123747;
+    /*Light steel blue*/
+    --color-three: #ADBDD1;
+    /*Sea green*/
+    --color-four: #2F6F7D;
+    /*Steel blue*/
+    --color-five: #68A6BC;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Muli', sans-serif;
+    background-color: white;
+    color: var(--color-one);
+}
+
+.topnav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: var(--color-two);
+    background-color: white;
+    text-align: center;
+}
+
+#mylogo {
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#mylinks a {
+    /* Style links */
+    float: none;
+    color: var(--color-four);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 17 px;
+}
+
+#mylinks a:hover {
+    text-decoration: underline;
+    color: var(--color-five);
+}
+
+#mylinks a:active {
+    color: var(--color-one);
+    text-decoration: bold;
+}
+
+h1 {
+    color: var(--color-five);
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11, .bgimg-12, .bgimg-13, .bgimg-14, .bgimg-15, .bgimg-16, .bgimg-17, .bgimg-18 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://images.unsplash.com/photo-1480554840075-72cbdabbf689?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2341184d5911dac46936d62148ff2ce&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-2 {
+    background-image: url("https://images.unsplash.com/photo-1487213802982-74d73802997c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7769196e1b91f3dfe832e82e5956fdaf&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-3 {
+    background-image: url("https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22b674fb2c751f77f7d80d22c77da67a&auto=format&fit=crop&w=3150&q=80");
+    min-height: 45%;
+}
+
+.bgimg-4 {
+    background-image: url("https://images.unsplash.com/photo-1474917299080-1371d7175b62?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04a97577d3955b44b8a32de747169e9d&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-5 {
+    background-image: url("https://images.unsplash.com/photo-1448222993383-a2fff2914d27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=803dc40cd7ac12853f97a26b68365c8b&auto=format&fit=crop&w=2110&q=80");
+    min-height: 45%;
+}
+
+.bgimg-6 {
+    background-image: url("https://images.unsplash.com/photo-1480554840075-72cbdabbf689?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2341184d5911dac46936d62148ff2ce&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-7 {
+    background-image: url("https://images.unsplash.com/photo-1487213802982-74d73802997c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7769196e1b91f3dfe832e82e5956fdaf&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-8 {
+    background-image: url("https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22b674fb2c751f77f7d80d22c77da67a&auto=format&fit=crop&w=3150&q=80");
+    min-height: 45%;
+}
+
+.bgimg-9 {
+    background-image: url("https://images.unsplash.com/photo-1474917299080-1371d7175b62?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04a97577d3955b44b8a32de747169e9d&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-10 {
+    background-image: url("https://images.unsplash.com/photo-1448222993383-a2fff2914d27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=803dc40cd7ac12853f97a26b68365c8b&auto=format&fit=crop&w=2110&q=80");
+    min-height: 45%;
+}
+
+.bgimg-11 {
+    background-image: url("https://images.unsplash.com/photo-1480554840075-72cbdabbf689?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2341184d5911dac46936d62148ff2ce&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-12 {
+    background-image: url("https://images.unsplash.com/photo-1487213802982-74d73802997c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7769196e1b91f3dfe832e82e5956fdaf&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-13 {
+    background-image: url("https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22b674fb2c751f77f7d80d22c77da67a&auto=format&fit=crop&w=3150&q=80");
+    min-height: 45%;
+}
+
+.bgimg-14 {
+    background-image: url("https://images.unsplash.com/photo-1474917299080-1371d7175b62?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04a97577d3955b44b8a32de747169e9d&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-15 {
+    background-image: url("https://images.unsplash.com/photo-1448222993383-a2fff2914d27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=803dc40cd7ac12853f97a26b68365c8b&auto=format&fit=crop&w=2110&q=80");
+    min-height: 45%;
+}
+
+.bgimg-16 {
+    background-image: url("https://images.unsplash.com/photo-1480554840075-72cbdabbf689?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2341184d5911dac46936d62148ff2ce&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-17 {
+    background-image: url("https://images.unsplash.com/photo-1487213802982-74d73802997c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7769196e1b91f3dfe832e82e5956fdaf&auto=format&fit=crop&w=2100&q=80");
+    min-height: 45%;
+}
+
+.bgimg-18 {
+    background-image: url("https://images.unsplash.com/44/MIbCzcvxQdahamZSNQ26_12082014-IMG_3526.jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22b674fb2c751f77f7d80d22c77da67a&auto=format&fit=crop&w=3150&q=80");
+    min-height: 45%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: var(--color-one);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
